@@ -21,13 +21,20 @@
   <a href="mailto:yossfmedhat@gmail.com">
     <img src="https://img.shields.io/badge/Email-yossfmedhat%40gmail.com-ffd700?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+
   <a href="https://www.linkedin.com/in/youssef-medhat" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Youssef%20Medhat-6f42c1?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+
   <a href="https://github.com/yossfmedhat" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-yossfmedhat-333333?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+
+  <a href="https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Youssef+Medhat#" target="_blank">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Youssef%20Medhat-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" />
+  </a>
 </p>
+
 
 ---
 
@@ -67,6 +74,13 @@ I am currently working on **AI-driven personalization for online learning**, foc
 This is where my **research brain** and **systems brain** meet.
 
 ---
+
+## 📚 Publications
+
+### • SmartCal: A Novel Automated Approach to Classifier Probability Calibration  
+**Youssef Medhat**, AutoML'25  
+A meta-model framework that unifies multiple calibration algorithms into a single automated pipeline, improving reliability of probability estimates for real-world ML deployments.  
+[Google Scholar](https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Youssef+Medhat#)
 
 ## 💬 Ask Me About
 
