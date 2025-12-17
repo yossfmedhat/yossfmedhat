@@ -1,0 +1,105 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d0b1f" />
+      <stop offset="50%" stop-color="#1a1033" />
+      <stop offset="100%" stop-color="#050308" />
+    </linearGradient>
+
+    <radialGradient id="particlePurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d19cff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#6f42c1" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="particleGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="1" />
+      <stop offset="100%" stop-color="#b8860b" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#d19cff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0.2" />
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="260" fill="url(#bgGradient)" />
+
+  <!-- Curved neon line -->
+  <path d="M -50 210
+           C 150 130, 350 260, 550 170
+           S 950 110, 1250 180"
+        stroke="url(#lineGradient)"
+        stroke-width="3"
+        fill="none"
+        filter="url(#glow)">
+    <animate attributeName="stroke-width"
+             values="2;3.5;2"
+             dur="4s"
+             repeatCount="indefinite" />
+  </path>
+
+  <!-- Purple particles -->
+  <circle cx="120" cy="70" r="32" fill="url(#particlePurple)">
+    <animate attributeName="r" values="18;32;18" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="80;140;120;80" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="420" cy="40" r="26" fill="url(#particlePurple)">
+    <animate attributeName="r" values="14;26;14" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="40;20;60;40" dur="9s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="880" cy="90" r="30" fill="url(#particlePurple)">
+    <animate attributeName="r" values="16;30;16" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="830;930;880;830" dur="11s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Gold particles -->
+  <circle cx="260" cy="190" r="20" fill="url(#particleGold)">
+    <animate attributeName="r" values="10;20;10" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="190;160;210;190" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="700" cy="150" r="24" fill="url(#particleGold)">
+    <animate attributeName="r" values="12;24;12" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="670;740;700;670" dur="9s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="1040" cy="200" r="22" fill="url(#particleGold)">
+    <animate attributeName="r" values="10;22;10" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="200;180;220;200" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Small static stars -->
+  <g fill="#d19cff">
+    <circle cx="90" cy="40" r="2" />
+    <circle cx="230" cy="30" r="1.5" />
+    <circle cx="360" cy="90" r="2" />
+    <circle cx="520" cy="45" r="1.5" />
+    <circle cx="650" cy="60" r="2" />
+    <circle cx="780" cy="30" r="1.5" />
+    <circle cx="960" cy="50" r="2" />
+    <circle cx="1120" cy="35" r="1.5" />
+  </g>
+
+  <!-- Title -->
+  <text x="50%" y="50%" text-anchor="middle" fill="#ffffff"
+        font-size="32" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont">
+    Youssef Medhat
+  </text>
+
+  <text x="50%" y="58%" text-anchor="middle" fill="#d19cff"
+        font-size="18" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont">
+    ML Engineer · Researcher · Builder of scalable AI ecosystems
+  </text>
+</svg>
