@@ -82,6 +82,8 @@ This is where my **research brain** and **systems brain** meet.
 A meta-model framework that unifies multiple calibration algorithms into a single automated pipeline, improving reliability of probability estimates for real-world ML deployments.  
 [Google Scholar](https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Youssef+Medhat#)
 
+---
+
 ## 💬 Ask Me About
 
 - 🧠 Representation learning for **personalization & student modeling**  
@@ -173,3 +175,4 @@ I am a **research-driven engineer** who also happens to be a **foodie**.
 <p align="center">
   <i>Always happy to connect about research, ML systems, or good food recommendations.</i>
 </p>
+
